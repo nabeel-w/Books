@@ -16,4 +16,4 @@ To run this React CRUD website locally, follow these steps:
 1. Clone the repository or download the source code.
 2. Install the necessary dependencies by running npm install or yarn install in the project's root directory.
 3. Start the development server by running npm start or yarn start.
-4. Access the website through your preferred web browser at http://localhost:3000 or the specified port.
+4. Access the website through your preferred web browser at http://localhost:3000
