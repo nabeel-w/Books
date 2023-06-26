@@ -1,19 +1,63 @@
-# Books
-This CRUD (Create, Read, Update, Delete) React front-end which allows users to manage books and authors. Users can perform the following actions:
-## Add a Book
-Users can add a new book to the system by providing the book title and, author name
-## Delete a Book
-Users can delete a book from the system by selecting it from a list of existing books and confirming the deletion.
-## Search for Books or Authors
-Users can search for books or authors using a search bar. The system will display matching results based on the entered search query.
-## Technologies Used
-- Front-end Framework: ReactJS
-- Styling: BootStrap
-- Backend: [Book-API](https://github.com/nabeel-w/Books_API)
-## Getting Started
-To run this React CRUD website locally, follow these steps:
+# Book
 
-1. Clone the repository or download the source code.
-2. Install the necessary dependencies by running npm install or yarn install in the project's root directory.
-3. Start the development server by running npm start or yarn start.
-4. Access the website through your preferred web browser at http://localhost:3000
+This repository contains the code for a frontend application that interacts with the [Books_API](https://github.com/nabeel-w/Books_API) to manage a collection of books. The front end is built using React.js and allows users to perform Create, Read, and Delete operations on the books.
+
+## Features
+
+- User-friendly interface for managing books:
+  - View all books in a list.
+  - Add a new book to the collection.
+  - Delete a book from the collection.
+  - Search for books by title or author.
+
+## Prerequisites
+
+Before running the frontend application, make sure you have the following prerequisites:
+
+- Node.js installed on your machine.
+- The Book API is running and accessible.
+
+## Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/nabeel-w/Books
+   ```
+
+2. Install the dependencies:
+
+   ```bash
+   cd Books
+   npm install
+   ```
+
+
+3. Start the application:
+
+   ```bash
+   npm start
+   ```
+
+   The application will start on `http://localhost:3000`.
+
+## Usage
+
+- Open the application in your browser by visiting `http://localhost:3000`.
+- Use the interface to perform the following operations on the books:
+  - View all books in the list.
+  - Click the "Add Book" button to add a new book.
+  - Click the "Delete" button next to a book to remove it from the collection.
+  - Use the search bar to search for books by title or author.
+
+## Dependencies
+
+The frontend application utilizes the following libraries:
+
+- React: JavaScript library for building user interfaces.
+- Axios: Promise-based HTTP client for making API requests.
+- React Router: Declarative routing for React applications.
+
+## Acknowledgements
+
+Special thanks to the developers of the React.js, Axios, and React Router libraries for their contributions to the open-source community.
